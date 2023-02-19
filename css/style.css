@@ -1,0 +1,196 @@
+@font-face {
+    font-family: pokemon;
+    src: url(PUCHAMON.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url('../images/FondoPokemon.png');
+    background-repeat: repeat;
+    background-size: 100% auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    font-family: pokemon;
+    color:#222224;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: left;
+}
+nav{
+    width: 100%;
+    height: auto;
+    background: blue;
+}
+section{
+    text-align:justify;
+    color:aliceblue;
+    width: 100%;
+    height: auto;
+    background: rgb(58, 57, 56);
+}
+footer{     
+    width: 100%;
+    height: auto;
+    background: rgb(146, 153, 248);
+}
+
+.right{
+    float:right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 88px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#4b262d ;
+    color: #ebd463;
+}
+#principal{
+    width: 90%;
+    height: auto;
+    margin:0 auto;
+}
+#navegador{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    background: #f30d0d;
+    overflow: hidden;
+}
+#left{
+    float:left
+}
+
+#imagenCentral{
+    width: 600px;
+    height: 350px;
+    margin-top: 0%;
+    margin-left:  25%;    
+}
+#piePagina{
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+    margin: 1px solid black;
+    padding: 4px;
+}
+
+.pokeball{
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+.texto{
+    color:aliceblue;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    background: rgb(58,57,56);
+}
+.imagenes{
+    padding: 0px 10%;
+    width: 100px;
+    height: 100px;
+}
+#registro{
+    color: black;
+    text-align: center;
+}
+.form{
+        background-color:rgb(48, 110, 110);
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 30px 50px rgba(30, 33, 36, 0.555);
+}
+.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .inputContainer {
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 90%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    z-index: 1;
+  }
+  .submitBtn {
+    
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+  }
+  .goBack {
+    
+    margin-left:auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(61, 54, 124);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .goBack{
+    transform: translateY(-2px);
+}
+  .input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: purple;
+  }
+  .input:focus {
+    border: 2px solid purple;
+  }
+  .input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
